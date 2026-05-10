@@ -1,0 +1,24 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+
+# Python кэш
+__pycache__/
+*.pyc
+*.pyo
+
+# Excel файлы (исключаем всё, кроме нужного)
+*.xlsx
+!конечная_таблица_данных.xlsx
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# Другие временные файлы
+*.log
+.DS_Store
